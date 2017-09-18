@@ -1,0 +1,89 @@
+html, body {
+    /* 1 em = 16 px */
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0%;
+}
+
+a {
+    color: #204156;
+    text-decoration: none;
+}
+
+/* --- Header parts --- */
+/* ... */
+
+/* --- Main body parts --- */
+.company-name {
+    text-align: left;
+    font-weight: 400;
+    font-size: 4em;
+}
+
+/* ... */
+
+.copyright {
+    text-align: center;
+    font-weight: 100;
+    color: #000;
+    font-size: 18px;
+    margin: 20px;
+}
+
+/* --- Navigation bar parts --- */
+nav {
+    background-color: #999;
+}
+
+nav a {
+    height: 60px;
+    line-height: 60px;
+    color: #FFF;
+    padding: 10px;
+    border: 1px solid #FFF;
+}
+
+.topbutton {
+    text-align: center;
+}
+
+.topbutton a {
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 8px 18px;
+    border: 1px solid #FFF;
+    position: relative;
+}
+
+.topbutton a:active {
+    top: 2px;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.bottombutton {
+    float: right;
+}
+
+.bottombutton a {
+    cursor: pointer;
+    margin-right: 30px;
+    padding: 8px 18px;
+    border: 1px solid #FFF;
+    position: relative;
+}
+
+.bottombutton a:active {
+    top: 2px;
+    border: 1px solid #000;
+    color: #000;
+}
+
+/* TODO: Another nice addition would be that the button that goes to the page the user is currently on is actually in a different colour to signal that you're already on that page.
