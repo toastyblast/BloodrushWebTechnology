@@ -19,14 +19,52 @@ a {
 
 /* --- Header parts --- */
 /* ... */
-
+header {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #999;
+}
 /* --- Main body parts --- */
 .company-name {
-    text-align: left;
+    text-align: center;
     font-weight: 400;
-    font-size: 4em;
+    font-size: 2em;
+    float: left;
+    width: 40%;
+    margin-top: 25px;
+    height: 60px;
 }
 
+.right {
+    float: right;
+    width: 80%;
+    text-align: center;
+    margin: 20px 20px;
+}
+
+blockquote {
+    text-align: center;
+    float: left;
+    width: 30%;
+    margin: 20px 1.5%;
+    border: 2px dotted #999;
+}
+
+.rightPic {
+    float: left;
+    width: 15%;
+}
+
+.left {
+    float: left;
+    width: 80%;
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.leftPic {
+    float: right;
+    width: 15%;
+}
 /* ... */
 
 .copyright {
@@ -40,6 +78,12 @@ a {
 /* --- Navigation bar parts --- */
 nav {
     background-color: #999;
+}
+
+.topnav {
+    float: right;
+    width: 55%;
+    margin-top: 25px;
 }
 
 nav a {
@@ -85,5 +129,7 @@ nav a {
     border: 1px solid #000;
     color: #000;
 }
+
+
 
 /* TODO: Another nice addition would be that the button that goes to the page the user is currently on is actually in a different colour to signal that you're already on that page.
