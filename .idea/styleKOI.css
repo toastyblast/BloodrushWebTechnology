@@ -70,18 +70,22 @@ blockquote {
 /*
 FAQ Page
  */
-div.centeredFAQ{
+div.centeredFAQ {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 1310px;
+    max-width: 1000px;
     padding: 50px 20px;
+    justify-content: center;
 }
 
-.FAQHeader{
+.FAQHeader {
     text-align: center;
     margin: 20px auto;
     max-width: 800px;
 }
-.FAQSearch{
+
+.FAQSearch {
     margin-bottom: 20px;
     width: 50%;
     height: 50px;
@@ -91,15 +95,14 @@ div.centeredFAQ{
     font-size: 16px;
 }
 
-.FAQSearch:focus{
+.FAQSearch:focus {
     width: 100%;
 }
 
 div.faq {
     margin: 25px 0 0 25px;
     background-color: #e0e0e0;
-    border: 1px dashed #ccc;
-    float: left;
+    border: 2px dashed #ccc;
     width: 300px;
 }
 
@@ -108,9 +111,39 @@ div.faq img {
     width: 40%;
 }
 
-div.faq div.FAQuestion{
+div.faq div.FAQuestion {
     font-size: x-large;
     margin: 10px;
+}
+
+/*
+Media page parts
+ */
+div.centeredMedia {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 90%;
+    justify-content: center;
+}
+
+div.media {
+    padding: 5px;
+    margin: 50px 0 0 50px;
+    background-color: #e0e0e0;
+    border: 2px dashed #ccc;
+}
+
+div.media img {
+    padding: 0;
+    margin: 0;
+    border: 5px solid #CCC;
+    background-color: seashell;
+}
+
+div.media div.mediaName {
+    text-align: center;
+    text-decoration: underline;
 }
 
 /* ... */
