@@ -83,8 +83,10 @@ div.centeredFAQ {
     width: 100%;
     background-color: gainsboro;
 }
-.FAQSearch{
+
+.FAQSearch {
     margin: 20px auto;
+}
 
 .FAQSearch {
     margin-bottom: 20px;
