@@ -67,6 +67,13 @@ blockquote {
     width: 15%;
 }
 
+div.faq {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+}
+
 /* ... */
 
 /* --- Navigation bar parts --- */
