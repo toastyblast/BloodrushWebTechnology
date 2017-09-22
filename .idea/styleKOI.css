@@ -32,9 +32,9 @@ header {
     text-align: center;
     font-size: 2em;
     float: left;
-    width: 40%;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    width: 45%;
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 
 .right {
@@ -42,13 +42,6 @@ header {
     width: 80%;
     text-align: center;
     margin: 20px 20px;
-}
-
-blockquote {
-    text-align: center;
-    width: 30%;
-    margin: 20px 1.5%;
-    border: 2px dotted #999;
 }
 
 .rightPic {
@@ -71,17 +64,15 @@ blockquote {
 centeredGrid {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    align-self: center;
     justify-content: center;
-    max-width: 90%;
-    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    margin: 0;
     padding: 15px 0px;
 }
 
-/*
-FAQ Page
- */
-.FAQHeader {
+.contentHeader {
     text-align: center;
     margin-top: 20px;
     padding: 0;
@@ -89,6 +80,15 @@ FAQ Page
     background-color: #f2f2f2;
 }
 
+blockquote {
+    width: 23%;
+    padding: 0;
+    border: 2px dotted #999;
+}
+
+/*
+FAQ Page
+ */
 .FAQSearch {
     margin: 20px 0 0 10px;
     width: 50%;
@@ -190,23 +190,17 @@ item.media img {
     background-color: seashell;
 }
 
-item.media a.mediaName {
+item.media .mediaName {
     text-align: center;
     text-decoration: underline;
 }
 
-/* ... */
-
-/* --- Navigation bar parts --- */
+/* --- Navigation & footer bar parts --- */
 nav {
-    margin-top: 1em;
-    background-color: #999;
-}
-
-nav.topnav {
     float: right;
     width: 55%;
     margin-top: 25px;
+    background-color: #999;
 }
 
 nav a {
@@ -215,15 +209,6 @@ nav a {
     color: #FFF;
     padding: 10px;
     border: 1px solid #FFF;
-}
-
-.koi-copyright {
-    float: left;
-    color: #FFF;
-    margin-left: 30px;
-    position: relative;
-    padding: 0;
-    border: none;
 }
 
 .topbutton {
@@ -244,6 +229,12 @@ nav a {
     color: #000;
 }
 
+footer {
+    margin-top: 1em;
+    background-color: #999;
+    padding: 22px;
+}
+
 .bottombutton {
     float: right;
 }
@@ -260,6 +251,15 @@ nav a {
     top: 2px;
     border: 1px solid #000;
     color: #000;
+}
+
+.koi-copyright {
+    float: left;
+    color: #FFF;
+    margin-left: 30px;
+    position: relative;
+    padding: 0;
+    border: none;
 }
 
 /* TODO: Another nice addition would be that the button that goes to the page the user is currently on is actually in a different colour to signal that you're already on that page.
