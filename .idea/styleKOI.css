@@ -63,7 +63,7 @@ header {
     margin-right: 20px;
 }
 
-centeredGrid {
+.centeredGrid {
     display: flex;
     flex-wrap: wrap;
     align-self: center;
@@ -74,7 +74,7 @@ centeredGrid {
     padding: 15px 0px;
 }
 
-contentHeader {
+.contentHeader {
     text-align: center;
     margin-top: 20px;
     padding: 0;
@@ -108,19 +108,19 @@ blockquote {
     width: 100%;
 }
 
-item.faq {
+.faq {
     margin: 25px 0 0 25px;
     background-color: #e0e0e0;
     border: 2px dashed #ccc;
     width: 300px;
 }
 
-item.faq img {
+.faq img {
     float: left;
     width: 40%;
 }
 
-item.faq a.FAQuestion {
+.faq a.FAQuestion {
     font-size: x-large;
     margin: 10px;
 }
@@ -174,21 +174,21 @@ item.faq a.FAQuestion {
 }
 
 /* --- Media page parts --- */
-mediaitem {
+.mediaitem {
     padding: 5px;
     margin: 25px 0 0 25px;
     background-color: #e0e0e0;
     border: 2px dashed #ccc;
 }
 
-mediaitem img {
+.mediaitem img {
     padding: 0;
     margin: 0;
     border: 5px solid #CCC;
     background-color: seashell;
 }
 
-mediaitem .mediaName {
+.mediaitem .mediaName {
     text-align: center;
     text-decoration: underline;
 }
