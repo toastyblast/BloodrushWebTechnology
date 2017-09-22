@@ -275,7 +275,8 @@ footer {
     color: #000;
 }
 
-h1.homeName {
+/* --- Home page --- */
+h1.gamename {
     font-size: 100px;
     color: red;
     margin: 0;
@@ -287,17 +288,17 @@ h1.homeName {
     height: 100px;
 }
 
-.playnowButton{
+.playnowtext{
     border: 1px solid #000;
     margin: 50px auto;
     width: 300px;
 }
 
-.color1 {
+.colorc1c1c1 {
     background-color: #c1c1c1;
 }
 
-.color2 {
+.color919191 {
     background-color: #919191;
 }
 /* TODO: Another nice addition would be that the button that goes to the page the user is currently on is actually in a different colour to signal that you're already on that page.
