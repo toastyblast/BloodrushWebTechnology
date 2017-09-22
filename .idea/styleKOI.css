@@ -9,6 +9,9 @@ html, body {
 
 body {
     font-family: 'Lato', sans-serif;
+    background-image: url('https://www.xmple.com/wallpaper/white-linear-gradient-grey-1920x1080-c2-d3d3d3-f5f5dc-a-135-f-14.svg');
+    background-position: center top;
+    background-size: cover;
     margin: 0%;
 }
 
@@ -31,6 +34,7 @@ header {
     float: left;
     width: 40%;
     margin-top: 25px;
+    margin-bottom: 10px;
 }
 
 .right {
@@ -83,7 +87,7 @@ div.centeredFAQ {
     margin-top: 20px;
     padding: 0;
     width: 100%;
-    background-color: gainsboro;
+    background-color: #f2f2f2;
 }
 
 .FAQSearch {
@@ -104,19 +108,19 @@ div.centeredFAQ {
     width: 100%;
 }
 
-div.faq {
+item.faq {
     margin: 25px 0 0 25px;
     background-color: #e0e0e0;
     border: 2px dashed #ccc;
     width: 300px;
 }
 
-div.faq img {
+item.faq img {
     float: left;
     width: 40%;
 }
 
-div.faq div.FAQuestion {
+item.faq a.FAQuestion {
     font-size: x-large;
     margin: 10px;
 }
@@ -124,7 +128,6 @@ div.faq div.FAQuestion {
 /*
 Contact page
  */
-
 .contactimage {
     border-radius: 50%;
 }
@@ -182,21 +185,21 @@ div.centeredMedia {
     justify-content: center;
 }
 
-div.media {
+item.media {
     padding: 5px;
     margin: 25px 0 0 25px;
     background-color: #e0e0e0;
     border: 2px dashed #ccc;
 }
 
-div.media img {
+item.media img {
     padding: 0;
     margin: 0;
     border: 5px solid #CCC;
     background-color: seashell;
 }
 
-div.media div.mediaName {
+item.media a.mediaName {
     text-align: center;
     text-decoration: underline;
 }
@@ -207,14 +210,6 @@ div.media div.mediaName {
 nav {
     margin-top: 1em;
     background-color: #999;
-}
-
-.koi-copyright {
-    float: left;
-    color: #FFF;
-    margin-left: 30px;
-    margin-top: 18px;
-    position: relative;
 }
 
 .topnav {
@@ -229,6 +224,15 @@ nav a {
     color: #FFF;
     padding: 10px;
     border: 1px solid #FFF;
+}
+
+.koi-copyright {
+    float: left;
+    color: #FFF;
+    margin-left: 30px;
+    position: relative;
+    padding: 0;
+    border: none;
 }
 
 .topbutton {
