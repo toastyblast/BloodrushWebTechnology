@@ -47,6 +47,7 @@ header {
 .rightPic {
     float: left;
     width: 15%;
+    margin-left: 20px;
 }
 
 .left {
@@ -59,6 +60,7 @@ header {
 .leftPic {
     float: right;
     width: 15%;
+    margin-right: 20px;
 }
 
 centeredGrid {
