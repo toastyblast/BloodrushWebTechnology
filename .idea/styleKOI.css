@@ -216,6 +216,15 @@ nav {
     position: relative;
 }
 
+.topbuttons a.current {
+    cursor: pointer;
+    margin-right: 30px;
+    color: #DAA520;
+    padding: 8px 18px;
+    border: 1px solid #DAA520;
+    position: relative;
+}
+
 .topbuttons a:active {
     top: 2px;
     border: 1px solid #000;
@@ -250,6 +259,7 @@ footer {
     border: 1px solid #FFF;
     position: relative;
 }
+
 .bottombuttons a.current {
     cursor: pointer;
     margin-right: 30px;
