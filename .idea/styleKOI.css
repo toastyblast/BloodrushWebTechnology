@@ -85,7 +85,8 @@ contentHeader {
 blockquote {
     width: 23%;
     padding: 0;
-    border: 2px dotted #999;
+    background-color: #f2f2f2;
+    border: 2px dotted #DAA520;
 }
 
 /* --- FAQ Page --- */
@@ -247,6 +248,14 @@ footer {
     color: #FFF;
     padding: 8px 18px;
     border: 1px solid #FFF;
+    position: relative;
+}
+.bottombuttons a.current {
+    cursor: pointer;
+    margin-right: 30px;
+    color: #DAA520;
+    padding: 8px 18px;
+    border: 1px solid #DAA520;
     position: relative;
 }
 
