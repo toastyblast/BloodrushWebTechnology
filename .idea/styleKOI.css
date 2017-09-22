@@ -127,7 +127,7 @@ item.faq a.FAQuestion {
     border-radius: 50%;
 }
 
-.coloredText {
+.contactLabelText {
     color: red;
     font-size: 120%;
 }
@@ -196,14 +196,8 @@ nav {
     width: 55%;
     margin-top: 25px;
     background-color: #999;
-}
-
-nav a {
     height: 60px;
     line-height: 60px;
-    color: #FFF;
-    padding: 10px;
-    border: 1px solid #FFF;
 }
 
 .topbuttons {
@@ -214,6 +208,7 @@ nav a {
     cursor: pointer;
     margin-right: 30px;
     padding: 8px 18px;
+    color: #FFF;
     border: 1px solid #FFF;
     position: relative;
 }
@@ -231,6 +226,15 @@ footer {
     padding: 22px;
 }
 
+.koi-copyright {
+    float: left;
+    color: #FFF;
+    margin-left: 30px;
+    position: relative;
+    padding: 0;
+    border: none;
+}
+
 .bottombuttons {
     float: right;
 }
@@ -238,6 +242,7 @@ footer {
 .bottombuttons a {
     cursor: pointer;
     margin-right: 30px;
+    color: #FFF;
     padding: 8px 18px;
     border: 1px solid #FFF;
     position: relative;
@@ -247,15 +252,6 @@ footer {
     top: 2px;
     border: 1px solid #000;
     color: #000;
-}
-
-.koi-copyright {
-    float: left;
-    color: #FFF;
-    margin-left: 30px;
-    position: relative;
-    padding: 0;
-    border: none;
 }
 
 /* TODO: Another nice addition would be that the button that goes to the page the user is currently on is actually in a different colour to signal that you're already on that page.
