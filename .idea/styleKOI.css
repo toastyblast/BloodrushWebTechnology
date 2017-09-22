@@ -69,10 +69,11 @@ blockquote {
 FAQ Page
  */
 div.centeredFAQ {
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 1100px;
     padding: 15px 0px;
     justify-content: center;
 }
@@ -120,6 +121,55 @@ div.faq div.FAQuestion {
     margin: 10px;
 }
 
+/*
+Contact page
+ */
+
+.contactimage {
+    border-radius: 50%;
+}
+
+.coloredText{
+    color: red;
+    font-size: 120%;
+}
+
+.contactForm{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.contactForm h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.contactForm #message {
+    height: 100px;
+    box-sizing: border-box;
+}
+.contactForm input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+}
+
+.contactForm input[type=submit] {
+    width: 40%;
+    background-color: gainsboro;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+}
+
+.gridsection{
+    margin: 40px 0 0 50px;
+}
 /*
 Media page parts
  */
