@@ -72,7 +72,7 @@ centeredGrid {
     padding: 15px 0px;
 }
 
-.contentHeader {
+contentHeader {
     text-align: center;
     margin-top: 20px;
     padding: 0;
@@ -86,9 +86,7 @@ blockquote {
     border: 2px dotted #999;
 }
 
-/*
-FAQ Page
- */
+/* --- FAQ Page --- */
 .FAQSearch {
     margin: 20px 0 0 10px;
     width: 50%;
@@ -124,19 +122,17 @@ item.faq a.FAQuestion {
     margin: 10px;
 }
 
-/*
-Contact page
- */
+/* --- Contact page --- */
 .contactimage {
     border-radius: 50%;
 }
 
-.coloredText{
+.coloredText {
     color: red;
     font-size: 120%;
 }
 
-.contactForm{
+.contactForm {
     width: 1000px;
     margin: 0 auto;
 }
@@ -153,6 +149,7 @@ Contact page
     height: 100px;
     box-sizing: border-box;
 }
+
 .contactForm input[type=text] {
     width: 100%;
     padding: 12px 20px;
@@ -169,33 +166,31 @@ Contact page
     margin: 8px 0;
 }
 
-.gridsection{
+.gridsection {
     margin: 40px 0 0 50px;
 }
 
-/*
-Media page parts
- */
-item.media {
+/* --- Media page parts --- */
+mediaitem {
     padding: 5px;
     margin: 25px 0 0 25px;
     background-color: #e0e0e0;
     border: 2px dashed #ccc;
 }
 
-item.media img {
+mediaitem img {
     padding: 0;
     margin: 0;
     border: 5px solid #CCC;
     background-color: seashell;
 }
 
-item.media .mediaName {
+mediaitem .mediaName {
     text-align: center;
     text-decoration: underline;
 }
 
-/* --- Navigation & footer bar parts --- */
+/* --- Navigation bar parts --- */
 nav {
     float: right;
     width: 55%;
@@ -211,11 +206,11 @@ nav a {
     border: 1px solid #FFF;
 }
 
-.topbutton {
+.topbuttons {
     text-align: center;
 }
 
-.topbutton a {
+.topbuttons a {
     cursor: pointer;
     margin-right: 30px;
     padding: 8px 18px;
@@ -223,23 +218,24 @@ nav a {
     position: relative;
 }
 
-.topbutton a:active {
+.topbuttons a:active {
     top: 2px;
     border: 1px solid #000;
     color: #000;
 }
 
+/* --- Footer bar parts --- */
 footer {
     margin-top: 1em;
     background-color: #999;
     padding: 22px;
 }
 
-.bottombutton {
+.bottombuttons {
     float: right;
 }
 
-.bottombutton a {
+.bottombuttons a {
     cursor: pointer;
     margin-right: 30px;
     padding: 8px 18px;
@@ -247,7 +243,7 @@ footer {
     position: relative;
 }
 
-.bottombutton a:active {
+.bottombuttons a:active {
     top: 2px;
     border: 1px solid #000;
     color: #000;
