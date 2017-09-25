@@ -76,7 +76,8 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-self: center;
-    max-width: 90%;
+    text-align: center;
+    width: 90%;
     padding: 15px 0px;
 }
 
@@ -159,6 +160,7 @@ h1.gamename {
     background-color: #e0e0e0;
     border: 2px dashed #ccc;
     max-width: 30%;
+    display: inline-table;
 }
 
 .faq img {
