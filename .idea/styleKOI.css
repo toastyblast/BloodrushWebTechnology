@@ -27,7 +27,6 @@ header {
     margin-bottom: 1em;
 }
 
-/* --- Main body parts --- */
 .company-name {
     text-align: center;
     font-size: 2em;
@@ -35,6 +34,15 @@ header {
     width: 45%;
     margin-top: 30px;
     margin-bottom: 0;
+}
+
+/* --- Universal body content parts --- */
+.contentHeader {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+    background-color: #f2f2f2;
 }
 
 .right {
@@ -69,17 +77,9 @@ header {
     align-self: center;
     justify-content: center;
     text-align: center;
-    width: 80%;
-    margin: 0;
+    width: 90%;
+    margin: 0 25px 0 0;
     padding: 15px 0px;
-}
-
-.contentHeader {
-    text-align: center;
-    margin-top: 20px;
-    padding: 0;
-    width: 100%;
-    background-color: #f2f2f2;
 }
 
 blockquote {
@@ -89,13 +89,60 @@ blockquote {
     border: 2px dotted #DAA520;
 }
 
-/* --- FAQ Page --- */
+/* --- Home page parts --- */
+h1.gamename {
+    font-size: 100px;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+.StoreLogo {
+    width: 300px;
+    height: 100px;
+}
+
+.playnowtext {
+    border: 1px solid #000;
+    margin: 50px auto;
+    width: 300px;
+}
+
+.lightergreyarticle {
+    background-color: #c1c1c1;
+}
+
+.darkergreyarticle {
+    background-color: #919191;
+}
+
+/* --- Media page parts --- */
+.mediaitem {
+    padding: 5px;
+    margin: 25px 0 0 25px;
+    background-color: #e0e0e0;
+    border: 2px dashed #ccc;
+}
+
+.mediaitem img {
+    padding: 0;
+    margin: 0;
+    border: 5px solid #CCC;
+    background-color: seashell;
+}
+
+.mediaitem .mediaName {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* --- FAQ page parts --- */
 .FAQSearch {
     margin: 20px 0 0 10px;
     width: 50%;
     height: 50px;
     box-sizing: border-box;
-    background-image: url("HTMLFiles/search.png");
+    /* background-image: url("../Images/search.png"); <--This creates errors, can't find the image*/
     background-position: 1px;
     padding-left: 50px;
     background-repeat: no-repeat;
@@ -112,12 +159,12 @@ blockquote {
     margin: 25px 0 0 25px;
     background-color: #e0e0e0;
     border: 2px dashed #ccc;
-    width: 300px;
+    max-width: 30%;
 }
 
 .faq img {
     float: left;
-    width: 40%;
+    width: 35%;
 }
 
 .faq a.FAQuestion {
@@ -173,27 +220,7 @@ blockquote {
     margin: 40px 0 0 50px;
 }
 
-/* --- Media page parts --- */
-.mediaitem {
-    padding: 5px;
-    margin: 25px 0 0 25px;
-    background-color: #e0e0e0;
-    border: 2px dashed #ccc;
-}
-
-.mediaitem img {
-    padding: 0;
-    margin: 0;
-    border: 5px solid #CCC;
-    background-color: seashell;
-}
-
-.mediaitem .mediaName {
-    text-align: center;
-    text-decoration: underline;
-}
-
-/* --- Navigation bar parts --- */
+/* --- Navigation & footer bar parts --- */
 nav {
     float: right;
     width: 55%;
@@ -207,31 +234,6 @@ nav {
     text-align: center;
 }
 
-.topbuttons a {
-    cursor: pointer;
-    margin-right: 30px;
-    padding: 8px 18px;
-    color: #FFF;
-    border: 1px solid #FFF;
-    position: relative;
-}
-
-.topbuttons a.current {
-    cursor: pointer;
-    margin-right: 30px;
-    color: #DAA520;
-    padding: 8px 18px;
-    border: 1px solid #DAA520;
-    position: relative;
-}
-
-.topbuttons a:active {
-    top: 2px;
-    border: 1px solid #000;
-    color: #000;
-}
-
-/* --- Footer bar parts --- */
 footer {
     margin-top: 1em;
     background-color: #999;
@@ -251,16 +253,16 @@ footer {
     float: right;
 }
 
-.bottombuttons a {
+.topbuttons a, .bottombuttons a {
     cursor: pointer;
     margin-right: 30px;
-    color: #FFF;
     padding: 8px 18px;
+    color: #FFF;
     border: 1px solid #FFF;
     position: relative;
 }
 
-.bottombuttons a.current {
+.topbuttons a.current, .bottombuttons a.current {
     cursor: pointer;
     margin-right: 30px;
     color: #DAA520;
@@ -269,36 +271,8 @@ footer {
     position: relative;
 }
 
-.bottombuttons a:active {
+.topbuttons a:active, .bottombuttons a:active {
     top: 2px;
     border: 1px solid #000;
     color: #000;
 }
-
-/* --- Home page --- */
-h1.gamename {
-    font-size: 100px;
-    color: red;
-    margin: 0;
-    padding: 0;
-}
-
-.StoreLogo{
-    width: 300px;
-    height: 100px;
-}
-
-.playnowtext{
-    border: 1px solid #000;
-    margin: 50px auto;
-    width: 300px;
-}
-
-.colorc1c1c1 {
-    background-color: #c1c1c1;
-}
-
-.color919191 {
-    background-color: #919191;
-}
-/* TODO: Another nice addition would be that the button that goes to the page the user is currently on is actually in a different colour to signal that you're already on that page.
