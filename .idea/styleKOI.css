@@ -242,7 +242,6 @@ nav {
     height: 6.16016%; /* 60px */
     line-height: 60px;
 }
-
 /* Dictates the buttons found in the nav bar on top of the page. */
 .topbuttons {
     text-align: center;
@@ -291,4 +290,213 @@ footer {
     top: 2px; /* 2px */
     border: 1px solid #000;
     color: #000;
+}
+
+@-moz-document url-prefix() {
+    nav {
+        height: 60%;
+    }
+
+    footer {
+        margin-top: 1em;
+        background-color: #999;
+        padding: 22px;
+    }
+}
+
+@media all and (max-width: 400px) and (max-height: 700px) and (orientation: portrait), (max-width: 700px) and (max-height: 400px) and (orientation: landscape) {
+
+    /**
+    Header parts
+     */
+
+    .company-name{
+        text-align: center;
+        font-size: xx-large;
+        float: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    /**
+    Universal body parts
+     */
+
+    .right {
+        float: none;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .rightPic {
+        display: block;
+        float: none;
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .left {
+        float: none;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .leftPic {
+        display: block;
+        float: none;
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    blockquote {
+        width: 100%;
+        padding: 0;
+        background-color: #f2f2f2;
+        border: 2px dotted #DAA520;
+    }
+
+    /**
+    Home page
+     */
+
+    h1.gamename{
+        font-size: xx-large;
+        width: 100%;
+        text-align: center;
+    }
+
+    .StoreLogo {
+        width: 50%;
+        height: 10%;
+        margin-bottom: 15px;
+    }
+
+    /**
+    Navigation parts
+     */
+
+    nav{
+        float: none;
+        width: 100%;
+        margin: 0;
+        background-color: #999;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .topbuttons{
+        width: 100%;
+        float: none;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .koi-copyright {
+        text-align: center;
+        float: none;
+        display: block;
+        color: #FFF;
+        padding: 0;
+        border: none;
+    }
+
+    .bottombuttons {
+        width: 100%;
+        float: none;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .bottombuttons a{
+        margin: 5px;
+        padding: 8px 18px;
+        display: inline-table;
+    }
+
+    .topbuttons a{
+        margin: 5px;
+        padding: 8px 18px;
+    }
+
+    .topbuttons a.current, .bottombuttons a.current{
+        margin: 5px;
+        padding: 8px 18px;
+    }
+
+    footer{
+        padding: 0;
+    }
+
+    /**
+    Media
+     */
+
+    .mediaitem {
+        padding: 5px;
+        margin: 5px auto;
+        background-color: #e0e0e0;
+        border: 2px dashed #ccc;
+        display: inline-table;
+    }
+
+    .mediaitem img {
+        padding: 0;
+        margin: 0;
+        width: 80%;
+        border: 5px solid #CCC;
+        background-color: seashell;
+    }
+
+    /**
+    FAQ
+     */
+
+    .faq{
+        margin: 25px auto;
+        background-color: #e0e0e0;
+        border: 2px dashed #ccc;
+        max-width: 100%;
+        width: 100%;
+        display: inline-table;
+    }
+
+    .faq img {
+        float: none;
+        width: 40%;
+        margin: 5px;
+    }
+
+    .faq a {
+        /*Will change it later*/
+
+        /*text-align: center;*/
+        /*font-size: medium;*/
+        /*font-family: sans-serif;*/
+    }
+
+    .faq .FAQuestion {
+        width: 80%;
+        text-align: center;
+        font-size: larger;
+        margin: 15px auto;
+        /*border-bottom: 2px solid #ccc;*/
+    }
+
+    /**
+    Contact
+     */
+
+    .gridsection {
+        margin: 15px auto;
+        width: 60%;
+    }
+
+    .contactForm {
+        max-width: 90%;
+    }
+
+    .contactForm h2 {
+        text-align: center;
+    }
+
 }
