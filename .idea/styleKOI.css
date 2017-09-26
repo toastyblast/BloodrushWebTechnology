@@ -103,9 +103,10 @@ h1.gamename {
     padding: 0;
 }
 
+/* Used to give a size to the google play download logo. */
 .StoreLogo {
-    width: 300px;
-    height: 100px;
+    width: 15.625%; /* 100px */
+    height: 10.26694%; /* 100px */
 }
 
 .playnowtext {
@@ -114,6 +115,7 @@ h1.gamename {
     width: 15.625%; /* 300px */
 }
 
+/* The following two classes are used to give a background to an article. */
 .lightergreyarticle {
     background-color: #c1c1c1;
 }
@@ -163,6 +165,7 @@ h1.gamename {
     width: 90%;
 }
 
+/* The class for an actual FAQ item box */
 .faq {
     margin: 2.56674% 0 0 1.30208%; /* 25px 0 0 25px */
     background-color: #e0e0e0;
@@ -182,6 +185,12 @@ h1.gamename {
 }
 
 /* --- Contact page --- */
+/* Used to set the margin around each contact piece on top of the contact page. */
+.gridsection {
+    margin: 4.10678% 0 0 2.60417%; /* 40px 0 0 50px */
+}
+
+/* Used to shape the images above the contact credentials */
 .contactimage {
     border-radius: 50%;
 }
@@ -224,10 +233,6 @@ h1.gamename {
     margin: 0.82136% 0; /* 8px 0 */
 }
 
-.gridsection {
-    margin: 4.10678% 0 0 2.60417%; /* 40px 0 0 50px */
-}
-
 /* --- Navigation & footer bar parts --- */
 nav {
     float: right;
@@ -238,6 +243,7 @@ nav {
     line-height: 60px;
 }
 
+/* Dictates the buttons found in the nav bar on top of the page. */
 .topbuttons {
     text-align: center;
 }
@@ -248,6 +254,7 @@ footer {
     padding: 1.05873% 1.14583%; /* 10px 22px*/
 }
 
+/* Shapes the copyright text on the footer bar. */
 .koi-copyright {
     float: left;
     color: #FFF;
@@ -256,10 +263,12 @@ footer {
     border: none;
 }
 
+/* Dictates the buttons found in the footer bar on the bottom of the page. */
 .bottombuttons {
     text-align: right;
 }
 
+/* Both the nav and footer bar buttons share the same makeup. */
 .topbuttons a, .bottombuttons a {
     cursor: pointer;
     margin-right: 1.5625%; /* 30px */
@@ -268,6 +277,7 @@ footer {
     border: 1px solid #FFF;
 }
 
+/* Extra class to turn the button of the page that the user is currently on in gold */
 .topbuttons a.current, .bottombuttons a.current {
     cursor: pointer;
     margin-right: 1.5625%; /* 30px */
@@ -276,6 +286,7 @@ footer {
     border: 1px solid #DAA520;
 }
 
+/* When a button is clicked on. */
 .topbuttons a:active, .bottombuttons a:active {
     top: 2px; /* 2px */
     border: 1px solid #000;
