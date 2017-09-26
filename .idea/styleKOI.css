@@ -1,6 +1,7 @@
+/* All percentages are based on a browser size of 974px by 1920px */
+
 html, body {
     /* 1 em = 16 px */
-    min-height: 100%;
     display: flex;
     flex-direction: column;
     font-weight: 400;
@@ -24,53 +25,58 @@ a {
 header {
     background-color: #f2f2f2;
     border-bottom: 2px solid #999;
-    margin-bottom: 1em;
+    margin-bottom: 1.64271%;
 }
 
 .company-name {
     text-align: center;
-    font-size: 2em;
+    font-size: 2em; /* 32 px */
     float: left;
     width: 45%;
-    margin-top: 30px;
-    margin-bottom: 0;
+    margin-top: 3.08008%; /* 30 px */
+    margin-bottom: 0%;
 }
 
 /* --- Universal body content parts --- */
 .contentHeader {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2.56674%; /* 25 px */
     padding: 0;
     width: 100%;
     background-color: #f2f2f2;
 }
 
+/* Used to force a section of text to the right side of the screen and only use a certain amount of the screen. */
 .right {
     float: right;
     width: 80%;
     text-align: center;
-    margin: 20px 20px;
+    margin: 2.05339% 1.04167%; /* 20px 20px */
 }
 
+/* This can be used to place an image to the left of the .right section of text */
 .rightPic {
     float: left;
     width: 15%;
-    margin-left: 20px;
+    margin-left: 1.04167%; /* 20px */
 }
 
+/* Used to force a section of text to the left side of the screen and only use a certain amount of the screen. */
 .left {
     float: left;
     width: 80%;
     text-align: center;
-    margin: 20px 20px;
+    margin: 2.05339% 1.04167%; /* 20px 20px */
 }
 
+/* This can be used to place an image to the right of the .left section of text */
 .leftPic {
     float: right;
     width: 15%;
-    margin-right: 20px;
+    margin-right: 1.04167%; /* 20px */
 }
 
+/* Class used to make a flex grid in the middle of the screen with items. Used for media, faq and quotes, for instance */
 .centeredGrid {
     display: flex;
     flex-wrap: wrap;
@@ -78,9 +84,10 @@ header {
     align-self: center;
     text-align: center;
     width: 90%;
-    padding: 15px 0px;
+    padding: 1.54004% 0%; /* 15px by 0px */
 }
 
+/* Tag that is used either for a quote or to showcase an award */
 blockquote {
     width: 23%;
     padding: 0;
@@ -103,8 +110,8 @@ h1.gamename {
 
 .playnowtext {
     border: 1px solid #000;
-    margin: 50px auto;
-    width: 300px;
+    margin: 5.13347% auto; /* 50px auto */
+    width: 15.625%; /* 300px */
 }
 
 .lightergreyarticle {
@@ -116,9 +123,10 @@ h1.gamename {
 }
 
 /* --- Media page parts --- */
+/* An item that can be place inside of the .centeredGrid class. */
 .mediaitem {
-    padding: 5px;
-    margin: 25px 0 0 25px;
+    padding: 0.51335% 0.26042%; /* 5px 5px */
+    margin: 2.56674% 0 0 1.30208%; /* 25px 0 0 25px */
     background-color: #e0e0e0;
     border: 2px dashed #ccc;
     display: inline-table;
@@ -127,6 +135,8 @@ h1.gamename {
 .mediaitem img {
     padding: 0;
     margin: 0;
+    max-width: 50%;
+    max-height: 50%;
     border: 5px solid #CCC;
     background-color: seashell;
 }
@@ -138,25 +148,23 @@ h1.gamename {
 
 /* --- FAQ page parts --- */
 .FAQSearch {
-    margin: 20px 0 0 10px;
+    margin: 2.05339% 0 0 1.02669%; /* 20px 0 0 10px */
     width: 50%;
-    height: 50px;
+    height: 5.13347%; /* 50px */
     box-sizing: border-box;
-    /* background-image: url("../Images/search.png"); <--This creates errors, can't find the image*/
-    background-position: 1px;
-    padding-left: 50px;
-    background-repeat: no-repeat;
+    padding-left: 2.60417%; /* 50px */
     border: 2px solid #ccc;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 1em;
 }
 
+/* Executed when the search bar is clicked on. */
 .FAQSearch:focus {
-    width: 100%;
+    width: 90%;
 }
 
 .faq {
-    margin: 25px 0 0 25px;
+    margin: 2.56674% 0 0 1.30208%; /* 25px 0 0 25px */
     background-color: #e0e0e0;
     border: 2px dashed #ccc;
     max-width: 30%;
@@ -170,7 +178,7 @@ h1.gamename {
 
 .faq a.FAQuestion {
     font-size: x-large;
-    margin: 10px;
+    margin: 1.02669% 0.52083%; /* 10px 10px */
 }
 
 /* --- Contact page --- */
@@ -184,27 +192,26 @@ h1.gamename {
 }
 
 .contactForm {
-    width: 1000px;
+    width: 52.08333%; /* 1000px */
     margin: 0 auto;
 }
 
 .contactForm h1 {
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin: 10.26694% 0 5.13347% 0; /* 100px 0 50px 0 */
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 2.05339%; /* 20px */
     border-bottom: 2px solid #ccc;
 }
 
 .contactForm #message {
-    height: 100px;
+    height: 10.26694%; /* 100px */
     box-sizing: border-box;
 }
 
 .contactForm input[type=text] {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 1.23203% 1.04167%; /* 12px 20px */
+    margin: 0.82136% 0; /* 8px 0 */
     box-sizing: border-box;
     border: 3px solid #ccc;
 }
@@ -213,21 +220,21 @@ h1.gamename {
     width: 40%;
     background-color: gainsboro;
     color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 1.43737% 1.04167%; /* 14px 20px */
+    margin: 0.82136% 0; /* 8px 0 */
 }
 
 .gridsection {
-    margin: 40px 0 0 50px;
+    margin: 4.10678% 0 0 2.60417%; /* 40px 0 0 50px */
 }
 
 /* --- Navigation & footer bar parts --- */
 nav {
     float: right;
     width: 55%;
-    margin-top: 25px;
+    margin-top: 2.56674%; /* 25px */
     background-color: #999;
-    height: 60px;
+    height: 6.16016%; /* 60px */
     line-height: 60px;
 }
 
@@ -236,44 +243,41 @@ nav {
 }
 
 footer {
-    margin-top: 1em;
+    margin-top: 1.64271%; /* 16 px */
     background-color: #999;
-    padding: 22px;
+    padding: 1.05873% 1.14583%; /* 10px 22px*/
 }
 
 .koi-copyright {
     float: left;
     color: #FFF;
-    margin-left: 30px;
-    position: relative;
+    margin-left: 1.5625%; /* 30px */
     padding: 0;
     border: none;
 }
 
 .bottombuttons {
-    float: right;
+    text-align: right;
 }
 
 .topbuttons a, .bottombuttons a {
     cursor: pointer;
-    margin-right: 30px;
-    padding: 8px 18px;
+    margin-right: 1.5625%; /* 30px */
+    padding: 0.82136% 0.9375%; /* 8px 18px */
     color: #FFF;
     border: 1px solid #FFF;
-    position: relative;
 }
 
 .topbuttons a.current, .bottombuttons a.current {
     cursor: pointer;
-    margin-right: 30px;
+    margin-right: 1.5625%; /* 30px */
     color: #DAA520;
-    padding: 8px 18px;
+    padding: 0.82136% 0.9375%; /* 8px 18px */
     border: 1px solid #DAA520;
-    position: relative;
 }
 
 .topbuttons a:active, .bottombuttons a:active {
-    top: 2px;
+    top: 2px; /* 2px */
     border: 1px solid #000;
     color: #000;
 }
