@@ -184,6 +184,21 @@ h1.gamename {
     margin: 1.02669% 0.52083%; /* 10px 10px */
 }
 
+/* Division that hides the majority of the FAQ items. */
+#hiddenDiv {
+    display: none;
+}
+
+/* Button that executes JS to show less or more FAQ items */
+.faqbutton {
+    margin: 1.5%;
+    padding: 1%;
+    font-size: 150%;
+    border: none;
+    color: #fff;
+    background-color: #616161;
+}
+
 /* --- Contact page --- */
 /* Used to set the margin around each contact piece on top of the contact page. */
 .gridsection {
@@ -242,6 +257,7 @@ nav {
     height: 6.16016%; /* 60px */
     line-height: 60px;
 }
+
 /* Dictates the buttons found in the nav bar on top of the page. */
 .topbuttons {
     text-align: center;
@@ -309,8 +325,7 @@ footer {
     /**
     Header parts
      */
-
-    .company-name{
+    .company-name {
         text-align: center;
         font-size: xx-large;
         float: none;
@@ -321,7 +336,6 @@ footer {
     /**
     Universal body parts
      */
-
     .right {
         float: none;
         text-align: center;
@@ -358,8 +372,7 @@ footer {
     /**
     Home page
      */
-
-    h1.gamename{
+    h1.gamename {
         font-size: xx-large;
         width: 100%;
         text-align: center;
@@ -374,8 +387,7 @@ footer {
     /**
     Navigation parts
      */
-
-    nav{
+    nav {
         float: none;
         width: 100%;
         margin: 0;
@@ -384,7 +396,7 @@ footer {
         line-height: 60px;
     }
 
-    .topbuttons{
+    .topbuttons {
         width: 100%;
         float: none;
         margin: 10px auto;
@@ -407,30 +419,29 @@ footer {
         text-align: center;
     }
 
-    .bottombuttons a{
+    .bottombuttons a {
         margin: 5px;
         padding: 8px 18px;
         display: inline-table;
     }
 
-    .topbuttons a{
+    .topbuttons a {
         margin: 5px;
         padding: 8px 18px;
     }
 
-    .topbuttons a.current, .bottombuttons a.current{
+    .topbuttons a.current, .bottombuttons a.current {
         margin: 5px;
         padding: 8px 18px;
     }
 
-    footer{
+    footer {
         padding: 0;
     }
 
     /**
     Media
      */
-
     .mediaitem {
         padding: 5px;
         margin: 5px auto;
@@ -450,8 +461,7 @@ footer {
     /**
     FAQ
      */
-
-    .faq{
+    .faq {
         margin: 25px auto;
         background-color: #e0e0e0;
         border: 2px dashed #ccc;
@@ -484,7 +494,6 @@ footer {
     /**
     Contact
      */
-
     .gridsection {
         margin: 15px auto;
         width: 60%;
@@ -519,7 +528,6 @@ Tested on Apple iPad Mini 2
     /**
     Universal body parts
      */
-
     .right {
         width: 70%;
     }
@@ -541,13 +549,12 @@ Tested on Apple iPad Mini 2
     /**
     Home page
      */
-
     h1.gamename {
         font-size: 70px;
     }
 
     .StoreLogo {
-        margin-bottom:  4%;
+        margin-bottom: 4%;
     }
 
     .playnowtext {
@@ -558,7 +565,6 @@ Tested on Apple iPad Mini 2
     /**
     Navigation parts
      */
-
     nav {
         height: 69.9%;
     }
@@ -567,7 +573,7 @@ Tested on Apple iPad Mini 2
     Contact
      */
     .gridsection {
-        margin: 2,9%;
+        margin: 2, 9%;
     }
 
     .centeredGrid {
@@ -577,7 +583,6 @@ Tested on Apple iPad Mini 2
     /**
     FAQ
      */
-    
     .faq {
         height: 230px;
     }
