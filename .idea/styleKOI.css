@@ -468,7 +468,6 @@ footer {
 
     .faq a {
         /*Will change it later*/
-
         /*text-align: center;*/
         /*font-size: medium;*/
         /*font-family: sans-serif;*/
@@ -498,5 +497,107 @@ footer {
     .contactForm h2 {
         text-align: center;
     }
+}
 
+/**
+Tested on Apple iPad Mini 2
+ */
+@media all and (height: 768px) and (width: 1024px) and (orientation: landscape), (height: 1024px) and (width: 768px) and (orientation: portrait) {
+
+    /**
+    Header parts
+     */
+    .company-name {
+        text-align: center;
+        font-size: 2em;
+        float: left;
+        width: 45%;
+        margin-top: 30px;
+        margin-bottom: 0%;
+    }
+
+    /**
+    Universal body parts
+     */
+
+    .right {
+        width: 70%;
+    }
+
+    .rightPic {
+        width: 25%;
+        margin-top: 5%;
+    }
+
+    .left {
+        width: 70%;
+    }
+
+    .leftPic {
+        width: 25%;
+        margin-top: 5%;
+    }
+
+    /**
+    Home page
+     */
+
+    h1.gamename {
+        font-size: 70px;
+    }
+
+    .StoreLogo {
+        margin-bottom:  4%;
+    }
+
+    .playnowtext {
+        margin: 4% auto;
+        width: 25%;
+    }
+
+    /**
+    Navigation parts
+     */
+
+    nav {
+        height: 69.9%;
+    }
+
+    /**
+    Contact
+     */
+    .gridsection {
+        margin: 2,9%;
+    }
+
+    .centeredGrid {
+        width: 100%;
+    }
+
+    /**
+    FAQ
+     */
+    
+    .faq {
+        height: 230px;
+    }
+
+    .faq img {
+        float: left;
+        width: 20%;
+    }
+
+    .faq p {
+        clear: both;
+        text-align: center;
+        margin: 5px;
+    }
+
+    .faq .FAQuestion {
+        text-align: center;
+        float: right;
+        width: 80%;
+        font-size: larger;
+        margin: 0;
+    }
 }
