@@ -190,7 +190,7 @@ h1.gamename {
 }
 
 /* Button that executes JS to show less or more FAQ items */
-.faqbutton {
+#faqbutton {
     margin: 1.5%;
     padding: 1%;
     font-size: 150%;

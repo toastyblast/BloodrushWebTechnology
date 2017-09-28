@@ -1,14 +1,14 @@
 
 function doFAQFunction() {
     var faquestions = document.getElementById("hiddenDiv");
-    var faqButton = document.getElementsByClassName("faqbutton");
+    var faqButton = document.getElementById("faqbutton");
 
     if (faquestions.style.display === 'none') {
         faquestions.style.display = 'block';
-        faqButton.value = 'Show less questions and answers.';
+        faqButton.value = "Show less questions and answers.";
     } else {
         faquestions.style.display = 'none';
-        faqButton.value = 'Show all questions and answers!';
+        faqButton.value = "Show all questions and answers!";
     }
 }
 
