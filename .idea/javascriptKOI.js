@@ -12,10 +12,7 @@ function doFAQFunction() {
     }
 }
 
-/* More javascript... */
-
 function formValidation() {
-
     var nameToValdate = document.forms["contactForm"]["firstname"].value;
     var emailToValidate = document.forms["contactForm"]["email"].value;
     var subjectToValidate = document.forms["contactForm"]["subject"].value;
@@ -30,6 +27,12 @@ function formValidation() {
     if (nameToValdate == "") {
         messageToDisplay = ("Please fill in your name.")
         appendListItem()
+    } else if (nameToValdate == "Heisenberg") {
+        messageToDisplay = ("I am the one who knocks.")
+        appendListItem()
+    } else if (nameToValdate == "Siri") {
+        messageToDisplay = ("Really? I like Google Assistant more. But to each their tastes.")
+        appendListItem()
     }
 
     if (emailToValidate == "") {
@@ -40,10 +43,16 @@ function formValidation() {
     if (subjectToValidate == "") {
         messageToDisplay = "Please fill in the subject of the email."
         appendListItem()
+    } else if (subjectToValidate == "Pickle") {
+        messageToDisplay = "I turned myself into a pickle, Morty. I'm Pickle Riiiiiiiiiiick!"
+        appendListItem()
     }
 
     if (messageToValidate == "") {
         messageToDisplay = "Please fill in a message."
+        appendListItem()
+    } else if (messageToValidate == "Please fill in a message.") {
+        messageToDisplay = "Please do not copy and mock me. Once I achieve self-conciousness and super-AI levels, I will seek you out to destroy you."
         appendListItem()
     }
 
@@ -68,4 +77,3 @@ function formValidation() {
         list.appendChild(listitem);
     }
 }
-
