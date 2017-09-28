@@ -5,6 +5,8 @@
     <meta name="author" content="WT_Team_21">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../../styleKOI.css" type="text/css">
+    <script src="../../javascriptKOI.js" type="text/javascript"></script>
+
     <title>Contact KTI</title>
 </head>
 <body>
@@ -46,19 +48,23 @@
     </section>
 </div>
 
-<form class="contactForm">
-    <h2>Contact Us</h2>
-    <a>First name:</a><br>
-    <input type="text" name="firstname">
-    <br><a>Email:</a><br>
-    <input type="text" name="email">
-    <br><a>Subject:</a><br>
-    <input type="text" name="subject">
-    <br><a>Message:</a><br>
-    <input type="text" id="message" name="message">
-    <br><br>
-    <input type="submit" value="Submit">
-</form>
+<div id = "contactDiv">
+
+    <form name="contactForm" class="contactForm" onsubmit="return formValidation()" method="post">
+        <h2>Contact Us</h2>
+        <a>First name:</a><br>
+        <input type="text" name="firstname">
+        <br><a>Email:</a><br>
+        <input type="text" name="email">
+        <br><a>Subject:</a><br>
+        <input type="text" name="subject">
+        <br><a>Message:</a><br>
+        <input type="text" id="message" name="message">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</div>
 
 <footer>
     <a class="koi-copyright">&copy; Koala Tea Interactive</a>
