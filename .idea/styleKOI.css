@@ -311,13 +311,26 @@ footer {
 
 @-moz-document url-prefix() {
     nav {
-        height: 60%;
+        height: 55%;
     }
 
     footer {
         margin-top: 1em;
         background-color: #999;
         padding: 22px;
+    }
+
+    #faqbutton {
+        margin: 25px 0 25px 0;
+        padding: 20px;
+    }
+
+    .faq {
+        margin-top: 20px;
+    }
+
+    .mediaitem {
+        margin-top: 60px;
     }
 }
 
