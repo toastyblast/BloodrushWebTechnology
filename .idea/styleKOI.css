@@ -334,8 +334,8 @@ footer {
     }
 }
 
-@media all and (max-width: 400px) and (max-height: 700px) and (orientation: portrait), (max-width: 700px) and (max-height: 400px) and (orientation: landscape),
-(height: 1024px) and (width: 768px) and (orientation: portrait){
+@media all and (max-width: 425px) and (max-height: 740px) and (orientation: portrait), (max-width: 740px) and (max-height: 425px) and (orientation: landscape),
+(min-height: 1024px) and (min-width: 768px) and (max-height: 1366px) and (max-width: 1024px) and (orientation: portrait){
 
     /**
     Header parts
@@ -397,6 +397,10 @@ footer {
         width: 50%;
         height: 10%;
         margin-bottom: 15px;
+    }
+
+    .playnowtext {
+        width: 40%;
     }
 
     /**
@@ -510,16 +514,23 @@ footer {
     Contact
      */
     .gridsection {
-        margin: 15px auto;
+        margin: 10px auto;
         width: 60%;
     }
 
     .contactForm {
         max-width: 90%;
+        float: none;
+        margin: 0 auto;
     }
 
     .contactForm h2 {
         text-align: center;
+    }
+
+    #eyy{
+        float: none;
+        margin: 20px auto;
     }
 }
 
@@ -588,7 +599,7 @@ Tested on Apple iPad Mini 2
     Contact
      */
     .gridsection {
-        margin: 2% 9%;
+        width: 40%;
     }
 
     .centeredGrid {
@@ -619,5 +630,24 @@ Tested on Apple iPad Mini 2
         width: 80%;
         font-size: larger;
         margin: 0;
+    }
+
+    /**
+    Contact
+     */
+    .contactForm {
+        float: none;
+        margin: 0 auto;
+    }
+    #eyy{
+        float: none;
+        margin: 20px auto;
+    }
+}
+
+@media all and (min-height: 1024px) and (min-width: 768px) and (max-height: 1366px) and (max-width: 1024px) and (orientation: portrait) {
+    .gridsection {
+        width: 20%;
+        color: blue;
     }
 }
