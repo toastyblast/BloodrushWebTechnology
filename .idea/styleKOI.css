@@ -334,6 +334,9 @@ footer {
     }
 }
 
+/**
+Tested on S5, S7 , iPhone 6 , i Phone 6 Plus
+ */
 @media all and (max-width: 425px) and (max-height: 740px) and (orientation: portrait), (max-width: 740px) and (max-height: 425px) and (orientation: landscape),
 (min-height: 1024px) and (min-width: 768px) and (max-height: 1366px) and (max-width: 1024px) and (orientation: portrait){
 
@@ -535,7 +538,7 @@ footer {
 }
 
 /**
-Tested on Apple iPad Mini 2
+Tested on Apple iPad Mini 2 / iPad and iPad Pro
  */
 @media all and (min-height: 768px) and (min-width: 1024px) and (max-width: 1366px) and (max-height: 1024px) and (orientation: landscape) {
 
@@ -645,6 +648,9 @@ Tested on Apple iPad Mini 2
     }
 }
 
+/**
+Tested on iPad and iPad pro
+ */
 @media all and (min-height: 1024px) and (min-width: 768px) and (max-height: 1366px) and (max-width: 1024px) and (orientation: portrait) {
     .gridsection {
         width: 40%;
