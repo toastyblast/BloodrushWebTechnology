@@ -513,6 +513,11 @@ Tested on S5, S7 , iPhone 6 , i Phone 6 Plus
         /*border-bottom: 2px solid #ccc;*/
     }
 
+    #faqbutton {
+        font-size: medium;
+        width: 100%
+    }
+
     /**
     Contact
      */
@@ -649,7 +654,7 @@ Tested on Apple iPad Mini 2 / iPad and iPad Pro
 }
 
 /**
-Tested on iPad and iPad pro
+Tested on iPad and iPad pro(Just a small change so more icons can fit on one row, for bigger devices.)
  */
 @media all and (min-height: 1024px) and (min-width: 768px) and (max-height: 1366px) and (max-width: 1024px) and (orientation: portrait) {
     .gridsection {
