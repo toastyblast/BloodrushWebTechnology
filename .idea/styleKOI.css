@@ -653,7 +653,7 @@ Tested on iPad and iPad pro
  */
 @media all and (min-height: 1024px) and (min-width: 768px) and (max-height: 1366px) and (max-width: 1024px) and (orientation: portrait) {
     .gridsection {
-        width: 40%;
+        width: 30%;
         color: blue;
     }
 }
